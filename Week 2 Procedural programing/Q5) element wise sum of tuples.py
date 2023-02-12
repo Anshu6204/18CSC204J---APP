@@ -1,0 +1,6 @@
+a=(11,2,3,14)
+b=(13,5,22,10)
+c=(12,2,3,10)
+print("\nElement-wise sum of the said tuples:")
+result = tuple(map(sum, zip(a, b, c)))
+print(result)
